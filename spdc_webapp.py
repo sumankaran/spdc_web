@@ -4,7 +4,7 @@ import numpy as np
 import math
 #def main():
 
-st.title("Spontaneous Parametric Down-Conversion (SPDC) Profile")
+st.title("Spontaneous Parametric Down-Conversion (SPDC) Simulator")
 
 
 

@@ -117,7 +117,7 @@ for k in np.arange(-5,5):
 
 st.subheader('Singles Intensity:')
 
-fig= px.imshow(funcmat,0.00005,0.00038, color_continuous_scale=px.colors.sequential.Inferno )
+fig= px.imshow(funcmat,0.00005,0.00038, color_continuous_scale=px.colors.sequential.Viridis )
 st.plotly_chart(fig)
 st.write('For further details of the SPDC process please read the following article:')
 st.write("Phase matching in β-barium borate crystals for spontaneous parametric down-conversion; S. Karan, S. Aarav, H. Bharadhwaj, L. Taneja, A. De, G. Kulkarni, N. Meher, and A. K. Jha; [Journal of Optics 22, 083501 (2020)](https://iopscience.iop.org/article/10.1088/2040-8986/ab89e4/meta).")
